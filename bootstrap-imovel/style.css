@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(137, 237, 255);
+    display: flex;
+    justify-content: center;
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 20px;
+    display: block;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    border-radius: 8px;
+    margin: 30px;
+}
+.input-edit{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#tabela{
+    margin: 10px;
+}
+#casa-icon{
+    font-size: 30px;
+    color: black;
+}
+.botao-enviar{
+    background-color: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#form-medidas{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.seleção{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
