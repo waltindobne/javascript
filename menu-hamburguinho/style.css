@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+
+
+
+
+
+header{
+    background-color: rgb(36, 36, 36);
+    padding: 35px;
+    border-bottom: 1px solid rgb(122, 118, 118);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+#cabecalho{
+    display: flex;
+}
+.menu-lateral{
+    width: 55px;
+    height: 100vh;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    transition: .2s;
+    overflow: hidden;
+    text-align: right;
+}
+ul li.item-menu a .icon{
+    padding-left: 15px;
+}
+.btn-expandir{
+    color: rgb(177, 173, 173);
+    padding: 15px 30px 10px 0px;
+    width: 100%;
+    font-size: 40px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu a{
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 20px;
+}
+ul li.item-menu:hover{
+    background-color: rgb(177, 173, 173);
+}
+ul li.item-menu a:hover{
+    color: rgb(36, 36, 36);
+}
+ul li.item-menu{
+    transition: .2s;
+}
+ul li.item-menu a{
+    transition: .2s;
+}
+
+
+ul li.ativo{
+    background-color: rgb(177, 173, 173);
+}
+ul li.ativo a{
+    color: rgb(36, 36, 36);
+}
+
+nav.menu-lateral.expandir{
+    width: 300px;
+    height: 100%;
+    border-left: 1px solid rgb(58, 58, 58);
+    border-bottom: 1px solid rgb(58, 58, 58);
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    right: 0;
+    top: 0;
+    
+}
+
+
+#cabecalho nav li a{
+    transition: .5s;
+}
+
+
+
+
+#container{
+    height: 100vh;
+}
