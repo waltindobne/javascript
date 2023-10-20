@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgb(175, 199, 235),rgb(25, 82, 167));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.164);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+#busca{
+    display: flex;
+}
+#searchInput{
+    border: 1px solid white;
+    background: none;
+    color: black;
+    outline: 0;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+}
+#button-buscar{
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(2, 2, 82);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+#info{
+    margin-top: 10px;
+    border-top: 1px solid white;
+}
