@@ -25,9 +25,9 @@ const weatherDate = async (city) => {
     const data = await getWeatherDados(city)
 
     cidadeElemento.innerText = data.name
-    paisElemento.innerText = data.sys.country
+    paisElemento.setAttribute("src", `https://flagsapi.com/${data.sys.country}/flat/16.png`)
     temperaturaElemento.innerText = parseInt(data.main.temp)
-    descElemento.innerText = data.weather[0].description
+    descElemento.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
     ventoElemento.innerText = data.wind.speed
     umidadeElemento.innerText = data.main.humidity
     console.log(data)
